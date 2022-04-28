@@ -13,7 +13,7 @@ set title "Index Construction Cost of Sweeping Plane"
 set xlabel "maxLevel" font "Helvetica-Bold"   
 set ylabel "CPU Cost ( ms )" font "Helvetica-Bold"
 set yrange [0:1000]
-plot "sweepPlaneIndexTime.dat" u 2:xticlabels(1) title "Initial Creation","sweepPlaneIndexTime.dat" u 3:xticlabels(1) title "Merge Update","sweepPlaneIndexTime.dat" u 4:xticlabels(1) title "Total"
+plot "time.dat" u 2:xticlabels(1) title "Initial Creation","time.dat" u 3:xticlabels(1) title "Merge Update","time.dat" u 4:xticlabels(1) title "Total"
 
 
 set style data histogram
@@ -23,7 +23,7 @@ set title "Index Size of Sweeping Plane"
 set xlabel "maxLevel" font "Helvetica-Bold"
 set ylabel "Number of Keys" font "Helvetica-Bold"
 set yrange [0:400]
-plot "sweepPlaneIndexSize.dat" u 2:xticlabels(1) title "Index Size"
+plot "size.dat" u 2:xticlabels(1) title "Index Size"
 
 
 
