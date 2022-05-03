@@ -41,6 +41,16 @@ set y2range [0:2500]
 set y2tics
 plot "5.dat" u 2:xticlabels(1) axes x1y1 title "Memory","5.dat" u 3:xticlabels(1) axes x1y2 title "Disk"
 
+set title "Range Query Cost - maxLevel=7"
+set xlabel "time duration (h)" font "Helvetica-Bold"   
+set ylabel "CPU Cost ( ms )" font "Helvetica-Bold"
+set xrange [-1:5]
+set xtics ()
+set yrange [0:150]
+set y2range [0:3000]
+set y2tics
+plot "7.dat" u 2:xticlabels(1) axes x1y1 title "Memory","7.dat" u 3:xticlabels(1) axes x1y2 title "Disk"
+
 
 unset multiplot
 set output

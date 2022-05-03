@@ -6,7 +6,7 @@ set multiplot layout 2,2 columnsfirst margins 0.1,0.9,0.1,0.9 spacing 0.16
 set size 0.5,0.5
 set origin 0,0.5
 set key top center
-set title "Access Index - maxLevel=4"
+set title "Range Query - maxLevel=4"
 set xlabel "Size of Rectangle (km)" font "Helvetica-Bold"
 set ylabel "CPU Cost ( ms )" font "Helvetica-Bold"
 set xrange [1:5]
@@ -16,7 +16,7 @@ plot "1.dat" u 1:2 w lp lw 3 pt 2 ps 1.3 t "Sweep Plane", "1.dat" u 1:3 w lp lw 
 
 set size 0.5,0.5
 set origin 0.5,0.5
-set title "Access Index - maxLevel=6"
+set title "Range Query - maxLevel=6"
 set xlabel "Size of Rectangle (km)" font "Helvetica-Bold"
 set ylabel "CPU Cost ( ms )" font "Helvetica-Bold"
 set xrange [1:5]
@@ -27,7 +27,7 @@ plot "3.dat" u 1:2 w lp lw 3  pt 2 ps 1.3 t "Sweep Plane", "3.dat" u 1:3 w lp lw
 
 set size 0.5,0.5
 set origin 0,0
-set title "Access Index - maxLevel=5"
+set title "Range Query - maxLevel=5"
 set xlabel "Size of Rectangle (km)" font "Helvetica-Bold"
 set ylabel "CPU Cost ( ms )" font "Helvetica-Bold"
 set xrange [1:5]
@@ -38,7 +38,7 @@ plot "2.dat" u 1:2 w lp lw 3  pt 2 ps 1.3 t "Sweep Plane", "2.dat" u 1:3 w lp lw
 
 set size 0.5,0.5
 set origin 0.5,0
-set title "Access Index - MaxLevel=7"
+set title "Range Query - MaxLevel=7"
 set xlabel "Size of Rectangle (km)" font "Helvetica-Bold"
 set ylabel "CPU Cost ( ms )" font "Helvetica-Bold"
 set xrange [1:5]
