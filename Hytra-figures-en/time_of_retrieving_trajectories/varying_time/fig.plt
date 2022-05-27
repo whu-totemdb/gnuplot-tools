@@ -9,7 +9,7 @@ set key top center
 
 set style data histogram
 set style histogram clustered gap 1.5
-set style fill pattern 3 border -1
+set style fill pattern 1 border -1
 
 # set title "MTA"
 # set xlabel "time duration (h)" font "Helvetica-Bold"   
